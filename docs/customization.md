@@ -279,7 +279,11 @@ Here is a simplified code example of what it looks like:
   {% include components/header.html %}
   {% include components/breadcrumbs.html %}
 
-  {{ content }}
+  {% if site.heading_anchors != false %}
+    {% include vendor/anchor_headings.html html=content ... %}
+  {% else %}
+    {{ content }}
+  {% endif %}
 
   {% if page.has_children == true and page.has_toc != false %}
     {% include components/children_nav.html %}
@@ -313,6 +317,7 @@ To briefly summarize each component:
 - `_includes/components/sidebar.html` renders the sidebar, containing the site header, navigation links, external links, collections, and nav footer.
 - `_includes/components/header.html` renders the navigation header, containing the search bar, custom header, and aux links
 - `_includes/components/breadcrumbs.html` renders the breadcrumbs feature
+- `vendor/anchor_headings.html` is a local copy of Vladimir Jimenez's [jekyll-anchor-headings](https://github.com/allejo/jekyll-anchor-headings) snippet
 - `_includes/components/children_nav.html` renders a list of nav links to child pages on parent pages
 - `_includes/components/footer.html` renders the bottom-of-page footer
 - `_includes/components/search_footer.html` renders DOM elements that are necessary for the search bar to work
@@ -339,7 +344,11 @@ Here is a simplified code example of what it looks like:
   {% comment %} Bandaid fix for breadcrumbs here! {% endcomment %}
   {% include components/breadcrumbs.html %}
 
-  {{ content }}
+  {% if site.heading_anchors != false %}
+    {% include vendor/anchor_headings.html html=content ... %}
+  {% else %}
+    {{ content }}
+  {% endif %}
 
   {% if page.has_children == true and page.has_toc != false %}
     {% include components/children_nav.html %}
