@@ -96,7 +96,7 @@
 }
 
 .stackedit__left {
-    grid-column: 0;
+    grid-column: 1;
     grid-row: 1;
     display: none;
     width: $stackedit-width;
@@ -110,4 +110,19 @@
 .stackedit__left__inner {
 overflow-y: scroll;
 height: 75vh;
+}
+
+@media (min-width: 1060px) {
+.stackedit__left {
+  display: block;
+}
+}
+
+/* Style the buttons */
+.toc-btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
 }

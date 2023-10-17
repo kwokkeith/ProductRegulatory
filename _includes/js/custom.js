@@ -3,6 +3,23 @@ function showContent() {
     document.body.style.opacity = 1;
 }
 
+function setAnchorUnclicked(){
+    const anchors = $('body').find('h1, h2, h3');
+    // set everything inactive first
+    for (var i = 0; i < anchors.length; i++){
+        $('.stackedit__toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('stackedit-clicked');
+    }
+}
+
+function setAnchorUnscrolled(){
+    const anchors = $('body').find('h1, h2, h3');
+    // set everything inactive first
+    for (var i = 0; i < anchors.length; i++){
+        $('.stackedit__toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('stackedit-scrolled');
+    }
+}
+
+
 function setTheme(){
     // User preset setup
     var currentTheme = localStorage.getItem('theme');

@@ -1,4 +1,12 @@
 // Typography
+$body-font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
+  roboto, "Helvetica Neue", arial, sans-serif !default;
+$mono-font-family: "SFMono-Regular", menlo, consolas, monospace !default;
+$root-font-size: 16px !default; // Base font-size for rems
+$body-line-height: 1.4 !default;
+$content-line-height: 1.6 !default;
+$body-heading-line-height: 1.25 !default;
+
 
 // prettier-ignore
 $body-font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
@@ -101,14 +109,15 @@ $border-color: $grey-lt-100 !default;
 
 $gutter-spacing: $sp-6 !default;
 $gutter-spacing-sm: $sp-4 !default;
-$nav-width: 16.5rem !default;
-$nav-width-md: 15.5rem !default;
+$gutter-spacing-xs: $sp-2 !default;
+$nav-width: 264px !default;
+$nav-width-md: 248px !default;
 $nav-list-item-height: $sp-6 !default;
 $nav-list-item-height-sm: $sp-8 !default;
-$nav-list-expander-right: true;
-$content-width: 50rem !default;
-$header-height: 3.75rem !default;
-$search-results-width: $content-width - $nav-width !default;
+$nav-list-expander-right: false;
+$content-width: 1200px !default;
+$header-height: 60px !default;
+$search-results-width: $content-width - $nav-width;
 $transition-duration: 400ms;
 
 $stackedit-width: 250px;

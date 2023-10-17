@@ -7,6 +7,15 @@ layout: table_wrappers
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include head.html %}
 <body>
+  <script>
+    var currentTheme = localStorage.getItem('theme');
+    if (currentTheme === 'dark'){
+      jtd.setTheme('dark');
+    }
+    else{
+      jtd.setTheme('light');
+    }
+  </script>
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
   {% include icons/icons.html %}
   <div class="main-content-wrap" id="top">

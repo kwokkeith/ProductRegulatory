@@ -28,13 +28,17 @@ layout: table_wrappers
 
       <div style="display: grid;">
         <div id="main-content" class="main-content" style="grid-column: 1; grid-row: 1; grid-auto-rows: min-content; display: grid;">
-            {% if site.heading_anchors != false %}
+          <main>  
+          {% if site.heading_anchors != false %}
               {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
             {% else %}
               {{ content }}
             {% endif %}
-          {% include components/footer.html %}
+
+          {%- include components/footer.html -%}
+          </main>
         </div>
+
           <div class="stackedit__left">
           <div style="position: sticky; position: -webkit-sticky; top: 60px; align-self: start;">
         <div class="stackedit__left__inner">
@@ -48,12 +52,11 @@ layout: table_wrappers
                   </script>
               </ul>
           </div>
-        </div>
       </div>
     </div>
       </div>
       </div>
-
+    </div>
 
     {% if site.search_enabled != false %}
       {% include components/search_footer.html %}

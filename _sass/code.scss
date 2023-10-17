@@ -77,7 +77,7 @@ figure.highlight {
   box-shadow: none;
   -webkit-overflow-scrolling: touch;
   position: relative;
-  padding: 0;
+  padding: $sp-3;
 
   // copy button (or other button)
   // the button appear only when there is a hover on the code or focus on button
