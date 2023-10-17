@@ -1,1 +1,113 @@
 // custom SCSS (or CSS) goes here
+
+.avatar {
+  height: 2em;
+  width: 2em;
+  scale: 1;
+  // float: left;
+  // margin-top: -13px;
+  // border-radius: 0.2em;
+  // margin-right: 0.5em;
+}
+
+
+.theme-toggle-button{
+  display: flex;
+  height: $sp-9;
+  width: $sp-9;
+  padding: $gutter-spacing-sm;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  cursor: pointer;
+  vertical-align: middle;
+  background-color: transparent;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  &.dark-button{
+    background-image: url("/assets/images/moon.svg");
+  }
+  &.light-button{
+    background-image: url("/assets/images/sun.svg");
+  }
+}
+
+.stackedit__toc ul {
+  background-image:none;
+  padding: 0;
+  margin-left:20px;
+}
+.stackedit__toc ul a {
+    background-image:none;
+    margin: 0rem 0;
+    padding: 0rem 1rem;
+}
+.stackedit__toc ol {
+    background-image:none;
+    margin-left: -20px;
+}
+.stackedit__toc ul ul {
+    background-image:none;
+    color: #888;
+}
+
+.stackedit__toc ul ul a {
+    background-image:none;
+    margin: 0;
+    padding: 0.1rem 1rem;
+}
+.stackedit__toc li {
+    background-image:none;
+    display: block;
+}
+.stackedit__toc a {
+    background-image:none;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.stackedit__toc a:active {
+    background-image: none;
+    color: $toc-color-active;
+}
+
+.stackedit__toc a:hover {
+    background-color: $toc-hover !important;
+    background-image:none !important ;
+    color: $toc-color-active !important;
+}
+
+.stackedit-scrolled{
+    background-color: $toc-hover !important;
+    background-image:none !important ;
+    color: $toc-color-active !important;
+}
+
+.stackedit-clicked{
+    background-color: $toc-hover !important;
+    background-image:none !important ;
+    color: $toc-color-active !important;
+}
+
+.grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.stackedit__left {
+    grid-column: 0;
+    grid-row: 1;
+    display: none;
+    width: $stackedit-width;
+    padding: 1.5rem 0rem;
+    left: 0;
+    overflow: visible;
+    z-index: 1;
+    font-family: "Helvetica Neue", $body-font-family;
+}
+
+.stackedit__left__inner {
+overflow-y: scroll;
+height: 75vh;
+}
