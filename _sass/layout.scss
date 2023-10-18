@@ -87,7 +87,7 @@
 }
 
 .site-nav {
-  psoition: fixed;
+  position: fixed;
   overflow-y: scroll;
   z-index: 998;
   padding-top: $sp-8;
@@ -104,6 +104,19 @@
     padding-bottom: $gutter-spacing-sm;
     overflow-y: auto;
     flex: 1 1 auto;
+  }
+}
+
+.site-header {
+  display: flex;
+  max-height: $header-height;
+  align-items: center;
+  font-weight: bold;
+
+  @include mq(md) {
+    height: $header-height;
+    max-height: $header-height;
+    border-bottom: $border $border-color;
   }
 }
 
