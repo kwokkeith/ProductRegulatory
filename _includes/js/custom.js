@@ -7,7 +7,7 @@ function setAnchorUnclicked(){
     const anchors = $('body').find('h1, h2, h3');
     // set everything inactive first
     for (var i = 0; i < anchors.length; i++){
-        $('.stackedit__toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('stackedit-clicked');
+        $('.stackedit--toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('stackedit-clicked');
     }
 }
 
@@ -15,7 +15,7 @@ function setAnchorUnscrolled(){
     const anchors = $('body').find('h1, h2, h3');
     // set everything inactive first
     for (var i = 0; i < anchors.length; i++){
-        $('.stackedit__toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('stackedit-scrolled');
+        $('.stackedit--toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('stackedit-scrolled');
     }
 }
 
@@ -114,7 +114,7 @@ function highlightTocInView(){
         var clicked_present = false;
         // check for clicked heading 
         for (var i = 0; i < anchors.length; i++){
-            var toc_anchor = $('.stackedit__toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]');
+            var toc_anchor = $('.stackedit--toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]');
             var heading_element = $('#' + $(anchors[i]).attr('id')); 
             
             // check if clicked
@@ -133,7 +133,7 @@ function highlightTocInView(){
         
         if (clicked_present == false){
             for (var i = 0; i < anchors.length; i++){
-                var toc_anchor = $('.stackedit__toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]');
+                var toc_anchor = $('.stackedit--toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]');
                 var heading_element = $('#' + $(anchors[i]).attr('id')); 
                 
                 if (heading_element.isInViewport()){
