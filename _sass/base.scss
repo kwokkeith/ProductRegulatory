@@ -16,6 +16,8 @@ html {
 }
 
 body {
+
+  -webkit-font-smoothing: antialiased;
   font-family: $body-font-family;
   font-size: inherit;
   line-height: $body-line-height;

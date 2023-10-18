@@ -20,6 +20,8 @@ function setAnchorUnscrolled(){
 }
 
 
+
+
 function setTheme(){
     // User preset setup
     var currentTheme = localStorage.getItem('theme');
@@ -193,6 +195,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
     // check device width
     handleDeviceChange(smallDevice);
 
+    // set mouse up listener
+    setMouseUpListener();
+
     // open links in new tab
     pdf_new_window();
     external_new_window();
@@ -212,4 +217,19 @@ function handleDeviceChange(e) {
     jQuery(".aux-nav").detach().appendTo(".site-header")
     jQuery(".search").detach().insertBefore(".side-bar")
   }
+}
+
+function setMouseUpListener(){
+    var container = document.getElementById('site-nav');
+    var main_header = document.getElementsByClassName('main-header')[0];
+    var overlay = document.getElementsByClassName('search-overlay')[0];
+    
+    document.addEventListener('mouseup', function(e) {
+        if (!container.contains(e.target) && container.classList.contains("nav-open")) {
+            container.classList.remove("nav-open");
+            main_header.classList.remove("nav-open");
+            overlay.classList.remove('search-overlay-active');
+            console.log("close sidebar");
+        }
+    });
 }

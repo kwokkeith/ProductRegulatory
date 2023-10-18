@@ -71,6 +71,11 @@ $toc-hover-light: rgba(0, 0, 0, 0.075);
 $toc-hover-dark: rgba(255, 255, 255, 0.075);
 $toc-hover: $toc-hover-light !default;
 
+$sidebar-color: $grey-lt-000 !default;
+$feedback-color: darken($sidebar-color, 3%) !default;
+$nav-child-link-color: $grey-dk-100 !default;
+$link-color: rgb(63,32,186)!default;
+
 // Spacing
 
 $spacing-unit: 1rem; // 1rem == 16px

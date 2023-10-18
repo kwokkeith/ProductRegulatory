@@ -23,6 +23,7 @@
       padding-top: $sp-1;
       padding-bottom: $sp-1;
       line-height: #{$nav-list-item-height-sm - 2 * $sp-1};
+      background-color: $sidebar-color;
       @if $nav-list-expander-right {
         padding-right: $nav-list-item-height-sm;
         padding-left: $gutter-spacing-sm;
@@ -101,6 +102,7 @@
       display: none;
       padding-left: $sp-3;
       list-style: none;
+      background-color: $sidebar-color;
 
       .nav-list-item {
         position: relative;
