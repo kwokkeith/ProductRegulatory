@@ -4,6 +4,7 @@
   height: 1.8em;
   width: 1.8em;
   scale: 1;
+  
   // float: left;
   // margin-top: -13px;
   // border-radius: 0.2em;
@@ -25,9 +26,11 @@
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
+  
   &.dark-button{
     background-image: url("/assets/images/moon.svg");
   }
+  
   &.light-button{
     background-image: url("/assets/images/sun.svg");
   }
@@ -38,15 +41,18 @@
   padding: 0;
   margin-left:20px;
 }
+
 .stackedit--toc ul a {
     background-image:none;
     margin: 0rem 0;
     padding: 0rem 1rem;
 }
+
 .stackedit--toc ol {
     background-image:none;
     margin-left: -20px;
 }
+
 .stackedit--toc ul ul {
     background-image:none;
     color: #888;
@@ -57,10 +63,12 @@
     margin: 0;
     padding: 0.1rem 1rem;
 }
+
 .stackedit--toc li {
     background-image:none;
     display: block;
 }
+
 .stackedit--toc a {
     background-image:none;
     display: block;
