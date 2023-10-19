@@ -1,5 +1,12 @@
 // custom SCSS (or CSS) goes here
 
+b,
+strong {
+  font-weight: bold;
+  color: $bold-color;
+}
+
+
 .avatar {
   height: 1.8em;
   width: 1.8em;
@@ -101,6 +108,54 @@
 
 .grid {
     grid-template-columns: 1fr 1fr;
+}
+
+.center-full {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+.center-seventy {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+}
+.center-fifty {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.center-fourty {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
+
+.center-thirty {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.center-twenty {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.center-ten {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
 }
 
 .stackedit--left {
