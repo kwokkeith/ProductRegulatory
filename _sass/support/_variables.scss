@@ -35,6 +35,18 @@ $font-size-10-sm: 3rem !default;
 
 // Colors
 
+$dark-theme-background-color: #121212;
+$dark-theme-main-color-1:     #bb86fc;
+$dark-theme-main-color-2:     #f77729;
+$dark-theme-main-color-3:     #202020;
+$dark-theme-green:           #e2cdfd;
+$dark-theme-blue:            #868cfc;
+$dark-theme-yellow:          #fcbb86;
+$dark-theme-red:             #f81597;
+$dark-theme-blood-red:       #ff0000;
+$dark-theme-orange: #f77729;
+$dark-theme-text-color: rgba(#fff, .7);
+
 $white: #fff !default;
 $grey-dk-000: #959396 !default;
 $grey-dk-100: #5c5962 !default;
@@ -45,6 +57,8 @@ $grey-lt-000: #f5f6fa !default;
 $grey-lt-100: #eeebee !default;
 $grey-lt-200: #ecebed !default;
 $grey-lt-300: #e6e1e8 !default;
+$purple-lt-50: #d2cde7 !default;
+$purple-lt-100: #b9ade8 !default;
 $purple-000: #7253ed !default;
 $purple-100: #5e41d0 !default;
 $purple-200: #4e26af !default;
@@ -74,10 +88,24 @@ $toc-hover: $toc-hover-light !default;
 $sidebar-color: $grey-lt-000 !default;
 $feedback-color: darken($sidebar-color, 3%) !default;
 $nav-child-link-color: $grey-dk-100 !default;
+$body-text-color: $grey-dk-200 !default;
 $link-color: rgb(63,32,186)!default;
 $body-heading-color: $grey-dk-300 !default;
 
+$highlight-background   : #1d1f21;
+$highlight-foreground   : #f2f2f2;
+$highlight-comment      : #969896;
+$highlight-red          : #c66;
+$highlight-orange       : #de935f;
+$highlight-yellow       : #f0c674;
+$highlight-green        : #b5bd68;
+$highlight-aqua         : #8abeb7;
+$highlight-blue         : #81a2be;
+$highlight-purple       : #b294bb;
+
+
 $bold-color: $grey-dk-300;
+$content-border: $grey-lt-100;
 
 // Spacing
 
@@ -129,6 +157,13 @@ $search-results-width: $content-width - $nav-width;
 $transition-duration: 400ms;
 
 $stackedit-width: 250px;
+
+// Collapsible
+$collapsible-bg-color: $grey-lt-100;
+$collapsible-font-color: $body-text-color;
+$collapsible-body-color: $grey-lt-100;
+$collapsible-active-bg-color: $purple-lt-50;
+
 // Media queries in pixels
 
 $media-queries: (
@@ -138,3 +173,4 @@ $media-queries: (
   lg: $content-width + $nav-width,
   xl: 87.5rem,
 ) !default;
+

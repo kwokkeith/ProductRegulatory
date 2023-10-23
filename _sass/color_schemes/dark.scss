@@ -14,6 +14,14 @@ $feedback-color: darken($sidebar-color, 3%);
 $table-background-color: $grey-dk-250;
 $search-background-color: $grey-dk-250;
 $search-result-preview-color: $grey-dk-000;
+$search-button-active-color: $dark-theme-background-color;
 $border-color: $grey-dk-200;
+$content-border: $grey-dk-250;
+
+$collapsible-bg-color: $grey-dk-250;
+$collapsible-font-color: $body-text-color;
+$collapsible-body-color: $grey-dk-250;
+$collapsible-active-bg-color: $highlight-background;
+
 
 @import "./vendor/OneDarkJekyll/syntax"; // this is the one-dark-vivid atom syntax theme

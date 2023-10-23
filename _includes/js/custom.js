@@ -19,9 +19,6 @@ function setAnchorUnscrolled(){
     }
 }
 
-
-
-
 function setTheme(){
     // User preset setup
     var currentTheme = localStorage.getItem('theme');
@@ -188,6 +185,28 @@ function pdf_new_window ()
 
 // Run scripts after DOM is loaded
 window.addEventListener("DOMContentLoaded", (event) => {
+
+    // Collapsible answers for quiz questions
+    var coll = document.getElementsByClassName("collapsible");
+
+    for (var i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") 
+        {
+            content.style.display = "none";
+        } 
+        else{
+            content.style.display = "block";
+        }
+    });
+    }
+
+    // Toggle all collapsibles
+    allCollapsibleToggle(coll);
+
+
     // dom is fully loaded, but maybe waiting on images & css files
     setThemeToggle(); 
     showContent();
@@ -232,4 +251,29 @@ function setMouseUpListener(){
             console.log("close sidebar");
         }
     });
+}
+
+function showContent() {
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = 1;
+}
+
+function allCollapsibleToggle(collapsibles) {
+    var btn = document.getElementsByClassName("btn-collapsible-toggle");
+    for (var i = 0; i < btn.length; i++){
+        btn[i].addEventListener("click", () => {
+            for (var j = 0; j < collapsibles.length; j++) {
+                collapsibles[j].classList.toggle("active");
+                var content = collapsibles[j].nextElementSibling;
+                if (content.style.display === "block") 
+                {
+                    content.style.display = "none";
+                } 
+                else{
+                    content.style.display = "block";
+                }
+            };
+        })
+    }
+
 }

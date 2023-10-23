@@ -6,7 +6,6 @@ strong {
   color: $bold-color;
 }
 
-
 .avatar {
   height: 1.8em;
   width: 1.8em;
@@ -17,7 +16,6 @@ strong {
   // border-radius: 0.2em;
   // margin-right: 0.5em;
 }
-
 
 .theme-toggle-button{
   display: flex;
@@ -189,3 +187,55 @@ height: 75vh;
   background-color: #f1f1f1;
   cursor: pointer;
 }
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  color: $collapsible-font-color;
+  border: 1px solid $content-border;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-left: 2px solid $link-color !important;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 5px;
+  text-align: left;
+  outline: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  line-height: 20pt;
+  padding-left: 10px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+//   .active,
+.collapsible.active {
+background-color: $collapsible-bg-color;
+border-bottom-right-radius: 0px;
+border-bottom: none;
+}
+
+.collapsible:hover{
+background-color: $collapsible-bg-color;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+padding: 0 10px;
+display: none;
+overflow: hidden;
+color: $collapsible-font-color;
+border-left: 2px solid $link-color !important;
+border-right: 1px solid $content-border;
+border-bottom: 1px solid $content-border;
+border-bottom-right-radius: 6px;
+}
+
+// Button for showing all collapsible
+.btn-collapsible-toggle{
+  padding: 10px 16px;
+  background-color: $collapsible-bg-color;
+  cursor: pointer;
+  text-align: center;
+  width: 20%;
+}
+
