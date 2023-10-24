@@ -89,10 +89,8 @@ Canada (CA) </h1>
                     <li>CSA C381.1-17</li>
                 </ul>
             </td>
-            <td>
             <td rowspan=1>
                 <img src="../assets/images/logo/ca-logo/CSA-C381.png" class="center-fifty"/>
-            </td>
             </td>
         </tr>
     </tbody>
