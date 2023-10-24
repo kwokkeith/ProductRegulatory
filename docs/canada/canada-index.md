@@ -11,7 +11,7 @@ has_children: true
 <img src="../../assets/images/country-flag/ca-flag.png" style="width: 60px"/>
 Canada (CA) </h1>
 
-# Product Regulatory for USA
+# Product Regulatory for Canada
 {:.no_toc}
  
 <div style="display: grid; grid-template-columns: auto auto">

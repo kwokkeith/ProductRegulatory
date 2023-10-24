@@ -1,19 +1,18 @@
 ---
 layout: default
 title: Laptop 
-permalink: /ca/laptop
-description: CA Regulations (Laptop)
-parent: Canada 
+permalink: /mx/laptop
+description: MX Regulations (Laptop)
+parent: Mexico 
 nav_order: 1
 ---
-
 
 * TOC
 {:toc}
 
 <h1> 
-<img src="../assets/images/country-flag/canada-flag.png" style="width: 60px"/>
-Canada (CA) </h1>
+<img src="../assets/images/country-flag/mexico-flag.png" style="width: 60px"/>
+Mexico (MX) </h1>
 
 
 # Standards and Regulations
@@ -69,8 +68,8 @@ Canada (CA) </h1>
                     <li>RSS-Gen / RSS-210</li>
                 </ul>
             </td>
-            <td rowspan=2>
-                <img src="../assets/images/logo/ca-logo/RSS.png" class="center-fifty"/>
+            <td rowspan=1>
+                <img src="" class="center-fifty"/>
             </td>
         </tr>
         <tr>
@@ -80,21 +79,22 @@ Canada (CA) </h1>
                     <li>RSS-102</li>
                 </ul>
             </td>
+            <td rowspan=1>
+                <img src="" class="center-fifty" />
+            </td>
         </tr>
         <tr>
             <td>
                 <h3>Energy Efficiency</h3>
                 <ul>
-                    <li>CSA C381.1-08</li>
-                    <li>CSA C381.1-17</li>
+                    <li>NRCan</li>
                 </ul>
             </td>
             <td>
-            <td rowspan=1>
-                <img src="../assets/images/logo/ca-logo/CSA-C381.png" class="center-fifty"/>
-            </td>
+                <p style="text-align: center">
+                    <mark>NRCan marked according to accredited test lab used.</mark>
+                </p>
             </td>
         </tr>
     </tbody>
 </table>
-
