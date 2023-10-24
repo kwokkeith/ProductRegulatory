@@ -12,7 +12,7 @@ nav_order: 1
 {:toc}
 
 <h1> 
-<img src="/assets/images/country-flag/usa-flag.png" style="width: 60px"/>
+<img src="assets/images/country-flag/usa-flag.png" style="width: 60px"/>
 United States of America (USA) </h1>
 
 
@@ -48,7 +48,7 @@ United States of America (USA) </h1>
                 </ul>
             </td>
             <td rowspan=1>
-                <img src="/assets/images/logo/usa-logo/UL.png" class="center-twenty"/>
+                <img src="assets/images/logo/usa-logo/UL.png" class="center-twenty"/>
             </td>
         </tr>
         <tr>
@@ -59,7 +59,7 @@ United States of America (USA) </h1>
                 </ul>        
             </td>
             <td rowspan=3>
-                <img src="/assets/images/logo/usa-logo/FCC.png" class="center-fifty"/>
+                <img src="assets/images/logo/usa-logo/FCC.png" class="center-fifty"/>
             </td>
         </tr>
         <tr>
@@ -86,7 +86,7 @@ United States of America (USA) </h1>
                 </ul>
             </td>
             <td>
-                <img src="/assets/images/logo/usa-logo/EPEAT.png" class="center-twenty"/>
+                <img src="assets/images/logo/usa-logo/EPEAT.png" class="center-twenty"/>
             </td>
         </tr>
         <tr>
@@ -96,7 +96,7 @@ United States of America (USA) </h1>
                 </ul>
             </td>
             <td>
-                <img src="/assets/images/logo/usa-logo/EnergyStar.png" class="center-twenty"/>
+                <img src="assets/images/logo/usa-logo/EnergyStar.png" class="center-twenty"/>
             </td>
         </tr>    
     </tbody>
@@ -108,29 +108,29 @@ United States of America (USA) </h1>
 ## Product Safety
 - UL 62368-1
 <div cursor="pointer" class="collapsible" style="margin-top:-10px">Show Logo</div><div class="content">
-    <img src="/assets/images/logo/usa-logo/UL.png" class="center-twenty"/>
+    <img src="assets/images/logo/usa-logo/UL.png" class="center-twenty"/>
 </div>
 
 ## EMC
 - FCC Part 15 Subpart B
 <div cursor="pointer" class="collapsible" style="margin-top:-10px">Show Logo</div><div class="content">
-    <img src="/assets/images/logo/usa-logo/FCC.png" class="center-twenty"/>
+    <img src="assets/images/logo/usa-logo/FCC.png" class="center-twenty"/>
 </div>
 
 ## RF
 - FCC Part 15 Subpart C
 <div cursor="pointer" class="collapsible" style="margin-top:-10px">Show Logo</div><div class="content">
-    <img src="/assets/images/logo/usa-logo/FCC.png" class="center-twenty"/>
+    <img src="assets/images/logo/usa-logo/FCC.png" class="center-twenty"/>
 </div>
 
 ## SAR
 -  47 CFR Part 2, section 2.1093 / 2.1091 (Laptop)
 <div cursor="pointer" class="collapsible" style="margin-top:-10px">Show Logo</div><div class="content">
-    <img src="/assets/images/logo/usa-logo/FCC.png" class="center-twenty"/>
+    <img src="assets/images/logo/usa-logo/FCC.png" class="center-twenty"/>
 </div>
         
 ## Energy Efficiency
 - EPEAT
 <div cursor="pointer" class="collapsible" style="margin-top:-10px">Show Logo</div><div class="content">
-    <img src="/assets/images/logo/usa-logo/EPEAT.png" class="center-twenty"/>
+    <img src="assets/images/logo/usa-logo/EPEAT.png" class="center-twenty"/>
 </div>  -->
