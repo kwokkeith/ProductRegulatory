@@ -12,7 +12,7 @@ nav_order: 1
 {:toc}
 
 <h1> 
-<img src="../../assets/images/country-flag/usa-flag.png" style="width: 60px"/>
+<img src="../assets/images/country-flag/usa-flag.png" style="width: 60px"/>
 United States of America (USA) </h1>
 
 
