@@ -33,11 +33,11 @@ strong {
   background-repeat: no-repeat;
   
   &.dark-button{
-    background-image: url("assets/images/moon.svg");
+    background-image: url("../../assets/images/moon.svg");
   }
   
   &.light-button{
-    background-image: url("assets/images/sun.svg");
+    background-image: url("../../assets/images/sun.svg");
   }
 }
 
