@@ -3,12 +3,12 @@ layout: default
 title: Canada
 permalink: /ca/index
 description: CA Regulations
-nav_order: 2
+nav_order: 3
 has_children: true
 ---
 
 <h1> 
-<img src="../../assets/images/country-flag/ca-flag.png" style="width: 60px"/>
+<img src="../assets/images/country-flag/ca-flag.png" style="width: 60px"/>
 Canada (CA) </h1>
 
 # Product Regulatory for Canada

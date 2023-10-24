@@ -18,7 +18,7 @@ description: Summary of Product Regulatory
 repository: kwokkeith/ProductRegulatory
 baseurl: "/ProductRegulatory" # the subpath of your site, e.g. /blog
 url: "https://kwokkeith.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-avatar: assets/images/small-image.jpg
+avatar: ./assets/images/small-image.jpg
 permalink: pretty
 
 exclude:

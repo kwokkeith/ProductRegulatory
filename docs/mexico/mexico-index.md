@@ -3,12 +3,12 @@ layout: default
 title: Mexico
 permalink: /mx/index
 description: MX Regulations
-nav_order: 2
+nav_order: 4
 has_children: true
 ---
 
 <h1> 
-<img src="../../assets/images/country-flag/mexico-flag.png" style="width: 60px"/>
+<img src="../assets/images/country-flag/mexico-flag.png" style="width: 60px"/>
 Canada (CA) </h1>
 
 # Product Regulatory for Mexico
