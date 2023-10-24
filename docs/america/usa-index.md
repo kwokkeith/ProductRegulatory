@@ -8,7 +8,7 @@ has_children: true
 ---
 
 <h1> 
-<img src="../assets/images/country-flag/usa-flag.png" style="width: 60px"/>
+<img src="https://kwokkeith.github.io/ProductRegulatory/assets/images/country-flag/usa-flag.png" style="width: 60px"/>
 United States of America (USA) </h1>
 
 # Product Regulatory for USA
@@ -17,7 +17,7 @@ United States of America (USA) </h1>
 <div style="display: grid; grid-template-columns: auto auto">
   <div class="grid-item">
     <a href="./laptop">
-        <img src="../assets/images/icons/laptop.png" alt="Laptop" class="center-thirty">
+        <img src="../https://kwokkeith.github.io/ProductRegulatory/assets/images/icons/laptop.png" alt="Laptop" class="center-thirty">
     </a>
   </div>
   <div class="grid-item">2nd Product</div>

@@ -8,6 +8,7 @@ layout: table_wrappers
 {% include head.html %}
 <body>
 
+  <!-- To assign theme -->
   <script>
     var currentTheme = localStorage.getItem('theme');
     if (currentTheme === 'dark'){
@@ -18,6 +19,7 @@ layout: table_wrappers
     }
   </script>
 
+  <!-- main content template -->
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
   {% include icons/icons.html %}
   {% include components/sidebar.html %}
