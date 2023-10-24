@@ -19,12 +19,12 @@ permalink: /
 
 # Countries
 <div style="display: flex; flex-wrap: wrap; gap: 10px">
-    <a href="https://natalieagus.github.io/50002/notes/betacpu#detailed-anatomy-of-the-regfile" style="display: grid; max-width: 30%;" class="center-forty">
+    <a href="https://kwokkeith.github.io/ProductRegulatory/usa/index" style="display: grid; max-width: 30%;" class="center-forty">
         <p class="text-center">United States of America</p>
-        <img src="/assets/images/country-flag/usa-flag.png"/>
+        <img src="./assets/images/country-flag/usa-flag.png"/>
     </a>
-    <a href="https://natalieagus.github.io/50002/notes/betacpu#detailed-anatomy-of-the-regfile" style="display: grid; max-width: 30%;" class="center-forty">
+    <a href="https://kwokkeith.github.io/ProductRegulatory/ca/index" style="display: grid; max-width: 30%;" class="center-forty">
         <p class="text-center">Canada</p>
-        <img src="/assets/images/country-flag/canada-flag.png" />
+        <img src="./assets/images/country-flag/canada-flag.png" />
     </a>
 </div>
