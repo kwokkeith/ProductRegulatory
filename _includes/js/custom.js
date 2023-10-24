@@ -6,7 +6,7 @@ function showContent() {
 function setAnchorUnclicked(){
     const anchors = $('body').find('h1, h2, h3');
     // set everything inactive first
-    for (var i = 0; i < anchors.length; i++){
+    for (let i = 0; i < anchors.length; i++){
         $('.stackedit--toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('stackedit-clicked');
     }
 }
@@ -14,7 +14,7 @@ function setAnchorUnclicked(){
 function setAnchorUnscrolled(){
     const anchors = $('body').find('h1, h2, h3');
     // set everything inactive first
-    for (var i = 0; i < anchors.length; i++){
+    for (let i = 0; i < anchors.length; i++){
         $('.stackedit--toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('stackedit-scrolled');
     }
 }
@@ -60,7 +60,7 @@ function setThemeToggle(){
     // Set current state of the icon based on current theme   
     // Setup of buttons
     const toggleThemeButtons = document.querySelectorAll('.toggle-theme');
-    var currentTheme = localStorage.getItem('theme');
+    let currentTheme = localStorage.getItem('theme');
     
     if (currentTheme == 'dark') {
         setButtonsTheme(toggleThemeButtons, 'dark');
@@ -75,7 +75,7 @@ function setThemeToggle(){
     $(".toggle-theme").hover(
         () => { //hover
             const toggleThemeButtons = document.querySelectorAll('.toggle-theme');
-            var currentTheme = localStorage.getItem('theme');
+            let currentTheme = localStorage.getItem('theme');
             if (currentTheme == 'dark') {
                 setButtonsTheme(toggleThemeButtons, 'light');
             } else {
@@ -84,7 +84,7 @@ function setThemeToggle(){
         }, 
         () => { //out
             const toggleThemeButtons = document.querySelectorAll('.toggle-theme');
-            var currentTheme = localStorage.getItem('theme');
+            let currentTheme = localStorage.getItem('theme');
             if (currentTheme == 'dark') {
                 setButtonsTheme(toggleThemeButtons, 'dark');
             } else {
@@ -98,9 +98,9 @@ function highlightTocInView(){
     const anchors = $('body').find('h1, h2, h3');
 
     // find if any element is in the viewport
-    var element_in_viewport = false;
-    for (var i = 0; i < anchors.length ; i++){
-        var heading_element = $('#' + $(anchors[i]).attr('id')); 
+    let element_in_viewport = false;
+    for (let i = 0; i < anchors.length ; i++){
+        let heading_element = $('#' + $(anchors[i]).attr('id')); 
         if (heading_element.isInViewport()){
             element_in_viewport = true;
             break;
@@ -108,11 +108,11 @@ function highlightTocInView(){
     }
 
     if (element_in_viewport){
-        var clicked_present = false;
+        let clicked_present = false;
         // check for clicked heading 
-        for (var i = 0; i < anchors.length; i++){
-            var toc_anchor = $('.stackedit--toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]');
-            var heading_element = $('#' + $(anchors[i]).attr('id')); 
+        for (let i = 0; i < anchors.length; i++){
+            let toc_anchor = $('.stackedit--toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]');
+            let heading_element = $('#' + $(anchors[i]).attr('id')); 
             
             // check if clicked
             if (toc_anchor.hasClass('stackedit-clicked')){
@@ -129,9 +129,9 @@ function highlightTocInView(){
         }
         
         if (clicked_present == false){
-            for (var i = 0; i < anchors.length; i++){
-                var toc_anchor = $('.stackedit--toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]');
-                var heading_element = $('#' + $(anchors[i]).attr('id')); 
+            for (let i = 0; i < anchors.length; i++){
+                let toc_anchor = $('.stackedit--toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]');
+                let heading_element = $('#' + $(anchors[i]).attr('id')); 
                 
                 if (heading_element.isInViewport()){
                     // remove all class
@@ -158,8 +158,8 @@ setTheme();
 
 //open external links in a new window
 function external_new_window() {
-    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
-        var b = c[a];
+    for(let c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+        let b = c[a];
         if(b.getAttribute("href") && b.hostname !== location.hostname) {
             b.target = "_blank";
             b.rel = "noopener";
@@ -171,8 +171,8 @@ function external_new_window() {
 function pdf_new_window ()
 {
     if (!document.getElementsByTagName) return false;
-    var links = document.getElementsByTagName("a");
-    for (var eleLink=0; eleLink < links.length; eleLink ++) {
+    let links = document.getElementsByTagName("a");
+    for (let eleLink=0; eleLink < links.length; eleLink ++) {
     if ((links[eleLink].href.indexOf('.pdf') !== -1)||(links[eleLink].href.indexOf('.doc') !== -1)||(links[eleLink].href.indexOf('.docx') !== -1)) {
         links[eleLink].onclick =
         function() {
@@ -187,12 +187,12 @@ function pdf_new_window ()
 window.addEventListener("DOMContentLoaded", (event) => {
 
     // Collapsible answers for quiz questions
-    var coll = document.getElementsByClassName("collapsible");
+    let coll = document.getElementsByClassName("collapsible");
 
-    for (var i = 0; i < coll.length; i++) {
+    for (let i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
-        var content = this.nextElementSibling;
+        let content = this.nextElementSibling;
         if (content.style.display === "block") 
         {
             content.style.display = "none";
@@ -239,9 +239,9 @@ function handleDeviceChange(e) {
 }
 
 function setMouseUpListener(){
-    var container = document.getElementById('site-nav');
-    var main_header = document.getElementsByClassName('main-header')[0];
-    var overlay = document.getElementsByClassName('search-overlay')[0];
+    let container = document.getElementById('site-nav');
+    let main_header = document.getElementsByClassName('main-header')[0];
+    let overlay = document.getElementsByClassName('search-overlay')[0];
     
     document.addEventListener('mouseup', function(e) {
         if (!container.contains(e.target) && container.classList.contains("nav-open")) {
@@ -259,12 +259,12 @@ function showContent() {
 }
 
 function allCollapsibleToggle(collapsibles) {
-    var btn = document.getElementsByClassName("btn-collapsible-toggle");
-    for (var i = 0; i < btn.length; i++){
+    let btn = document.getElementsByClassName("btn-collapsible-toggle");
+    for (let i = 0; i < btn.length; i++){
         btn[i].addEventListener("click", () => {
-            for (var j = 0; j < collapsibles.length; j++) {
+            for (let j = 0; j < collapsibles.length; j++) {
                 collapsibles[j].classList.toggle("active");
-                var content = collapsibles[j].nextElementSibling;
+                let content = collapsibles[j].nextElementSibling;
                 if (content.style.display === "block") 
                 {
                     content.style.display = "none";
