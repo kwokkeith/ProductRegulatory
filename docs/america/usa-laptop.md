@@ -48,7 +48,7 @@ United States of America (USA) </h1>
                 </ul>
             </td>
             <td rowspan=1>
-                <img src="../../assets/images/logo/usa-logo/UL.png" class="center-twenty"/>
+                <img src="../assets/images/logo/usa-logo/UL.png" class="center-twenty"/>
             </td>
         </tr>
         <tr>
@@ -59,7 +59,7 @@ United States of America (USA) </h1>
                 </ul>        
             </td>
             <td rowspan=3>
-                <img src="../../assets/images/logo/usa-logo/FCC.png" class="center-fifty"/>
+                <img src="../assets/images/logo/usa-logo/FCC.png" class="center-fifty"/>
             </td>
         </tr>
         <tr>
@@ -86,7 +86,7 @@ United States of America (USA) </h1>
                 </ul>
             </td>
             <td>
-                <img src="../../assets/images/logo/usa-logo/EPEAT.png" class="center-twenty"/>
+                <img src="../assets/images/logo/usa-logo/EPEAT.png" class="center-twenty"/>
             </td>
         </tr>
         <tr>
@@ -96,7 +96,7 @@ United States of America (USA) </h1>
                 </ul>
             </td>
             <td>
-                <img src="../../assets/images/logo/usa-logo/EnergyStar.png" class="center-twenty"/>
+                <img src="../assets/images/logo/usa-logo/EnergyStar.png" class="center-twenty"/>
             </td>
         </tr>    
     </tbody>
