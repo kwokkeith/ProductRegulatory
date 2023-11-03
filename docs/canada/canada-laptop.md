@@ -12,7 +12,7 @@ nav_order: 1
 {:toc}
 
 <h1> 
-<img src="../assets/images/country-flag/canada-flag.png" style="width: 60px"/>
+<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDSv2NpDzNPFNZLN9MDFBWxVWU5pN5MGadb2tlh3i3bofl47T6SRl0Za3LoGspMf6i3ZPli09aINoyfe7oTUFnBH_6V=s1600" style="width: 60px"/>
 Canada (CA) </h1>
 
 
@@ -48,7 +48,7 @@ Canada (CA) </h1>
                 </ul>
             </td>
             <td rowspan=1>
-                <img src="../assets/images/logo/ca-logo/CSA.png" class="center-thirty"/>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDZiFrPdcpbhegfy11Af2BL4FAHO8i2muRynvDLgouUmA1uRVSxxmr2dOxfr8JkoO4Tteojyop9g2VpW6HdX1TwRwE1PA=s2560" class="center-thirty"/>
             </td>
         </tr>
         <tr>
@@ -59,7 +59,7 @@ Canada (CA) </h1>
                 </ul>        
             </td>
             <td rowspan=1>
-                <img src="../assets/images/logo/ca-logo/ICES.png" class="center-fifty"/>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaCAwKmfE4mAqUJ1-uWcxSb9uE76cAOjcK5VDMFf7BCws4jDprP7jr-PcOp9LqFv016xjDtJm_auLoFBpfrWc-M7ywTu1A=s2560" class="center-fifty"/>
             </td>
         </tr>
         <tr>
@@ -70,7 +70,7 @@ Canada (CA) </h1>
                 </ul>
             </td>
             <td rowspan=2>
-                <img src="../assets/images/logo/ca-logo/RSS.png" class="center-fifty"/>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAep4YVTqbfOcU2XbUDq7LtqUWiBFt_iZDaWrg79sZogwFahfG0cwvDhll2c4BaxzDNkjJqpXdNfLjh1Rg4W1Kb5iKf=s2560" class="center-fifty"/>
             </td>
         </tr>
         <tr>
@@ -90,7 +90,7 @@ Canada (CA) </h1>
                 </ul>
             </td>
             <td rowspan=1>
-                <img src="../assets/images/logo/ca-logo/CSA-C381.png" class="center-fifty"/>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaCHwhtgrsQKIvCULBWBH6f0fHdYMPu_unzsYYsSD6wZFu7CUn5jIy6fxIW4gV4u6W7SKN54ZrXKZA4ifI90rH5uB1L-=s2560" class="center-fifty"/>
             </td>
         </tr>
     </tbody>

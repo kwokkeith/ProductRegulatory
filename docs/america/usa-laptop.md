@@ -12,7 +12,7 @@ nav_order: 1
 {:toc}
 
 <h1> 
-<img src="../assets/images/country-flag/usa-flag.png" style="width: 60px"/>
+<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAzCcz3NzAD__vMwV4M5b1mBfUPndaBCjsCXnkMdktI3iH-jPNAhnLK07qDgPpZV1ePhDvPn2EHOq7yoQve-LASZjCWqw=s1600" style="width: 60px"/>
 United States of America (USA) </h1>
 
 
@@ -48,7 +48,7 @@ United States of America (USA) </h1>
                 </ul>
             </td>
             <td rowspan=1>
-                <img src="../assets/images/logo/usa-logo/UL.png" class="center-twenty"/>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDwLlOCg5UOja33jpuwmDsPqqyBmk8KnKW3VZWcwaNlARhM8QnA_vlgG7R7ad9Fl05JI1r3vpn_d1kH46TKrmcZp9Kp=s2560" class="center-twenty"/>
             </td>
         </tr>
         <tr>
@@ -59,7 +59,7 @@ United States of America (USA) </h1>
                 </ul>        
             </td>
             <td rowspan=3>
-                <img src="../assets/images/logo/usa-logo/FCC.png" class="center-fifty"/>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAZ3QVEo37W2MM5O4_BZJSZRiNFYP7LrIDtaiTxUbux6Yy0KULR1g9GKwQ2_3mjBM8CsRtxvNcDjjMe7F-ODcTJizZ1oQ=s2560" class="center-fifty"/>
             </td>
         </tr>
         <tr>
@@ -86,7 +86,7 @@ United States of America (USA) </h1>
                 </ul>
             </td>
             <td>
-                <img src="../assets/images/logo/usa-logo/EPEAT.png" class="center-twenty"/>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBPwKHBxkFkW_-YnhZiGxX_3wj30Xah9gZJremZ6R_2yB6RXHjE1MFI2ism2ioWvgc3A7kd-duoijTaSjn64YTWPueiAg=s2560" class="center-twenty"/>
             </td>
         </tr>
         <tr>
@@ -96,7 +96,7 @@ United States of America (USA) </h1>
                 </ul>
             </td>
             <td>
-                <img src="../assets/images/logo/usa-logo/EnergyStar.png" class="center-twenty"/>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBedQUrYCtCI_O38rrLj4T4X6QTdqPKbpIF67w7GexgK70GbrNZdcacMqh3UqBlYNHo_zwaVQ40Laf4I3xf7bjJWjZ6ng=s2560" class="center-twenty"/>
             </td>
         </tr>    
     </tbody>

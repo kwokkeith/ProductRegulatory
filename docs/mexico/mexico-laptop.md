@@ -11,21 +11,21 @@ nav_order: 1
 {:toc}
 
 <h1> 
-<img src="../assets/images/country-flag/mexico-flag.png" style="width: 60px"/>
+<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDMDMhmSa1y6ZYS1yqaA0KB97ZNkM1UZUn7s5Zc4GYI4vslHkjOpRaefb9Arp9lhxb3Ue6TDbEV5v3NFqCiFW1rzbdnZg=s1600" style="width: 60px"/>
 Mexico (MX) </h1>
 
 
 # Standards and Regulations
-- ***Product Safety:*** <br> CSA C22.2 No. 62368-1
-- ***Electromagnetic Compatibility (EMC):*** <br> ICES-003
-- ***Radio Frequency (RF):*** <br> RSS-GEN / RSS-210
-- ***Special Access Routes (SAR):*** <br> RSS-102
-- ***Energy Efficiency:*** <br> NRCan
+- ***Product Safety:*** <br> NOM-019
+- ***Electromagnetic Compatibility (EMC):*** <br> Covered by RF EMC Testing
+- ***Radio Frequency (RF):*** <br> IFETEL (IFT 008) / NOM-208
+- ***Special Access Routes (SAR):*** <br> IFT-012-2019
+- ***Energy Efficiency:*** <br> Not in scope for laptops
 
 
 # Lead Time
 - ***Safety Test:*** 8 Weeks
-- ***EMC and RF Test:*** 8 Weeks
+- ***EMC and RF Test:*** 8 to 12 Weeks
 - ***Energy Efficiency Certification:*** 4 Weeks
 
 
@@ -47,7 +47,7 @@ Mexico (MX) </h1>
                 </ul>
             </td>
             <td rowspan=1>
-                <img src="../assets/images/logo/ca-logo/CSA.png" class="center-thirty"/>
+                <img src="" class="center-thirty"/>
             </td>
         </tr>
         <tr>
@@ -58,7 +58,7 @@ Mexico (MX) </h1>
                 </ul>        
             </td>
             <td rowspan=1>
-                <img src="../assets/images/logo/ca-logo/ICES.png" class="center-fifty"/>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAIkIGX_P_5Pwy45fjH6jPnJeZJDyAhCkHopW_LS2wVDzUeCp73gqdwKeLeh2Ty62pYwRx9G2uI5Pxx64trtqtCybmEkg=s2560" class="center-fifty"/>
             </td>
         </tr>
         <tr>
