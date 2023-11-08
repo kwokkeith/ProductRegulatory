@@ -18,7 +18,7 @@ has_children: true
 - ***Product Safety:*** <br> EN/IEC 62368-1
 - ***Electromagnetic Compatibility (EMC):*** <br> EN 55032 / EN 55035
 - ***Radio Frequency (RF):*** <br> ETSI EN 300328 / ETSI EN 301489-1
-- ***Special Access Routes (SAR):*** <br> EN 62311
+- ***Specific Absorption Rate (SAR):*** <br> EN 62311
 - ***Energy Efficiency:*** <br> EuP
 
 
@@ -88,7 +88,7 @@ has_children: true
         </tr>
         <tr>
             <td>
-                <h3>Special Access Routes</h3>
+                <h3>Specific Absorption Rate</h3>
                 <ul>
                     <li>EN 62311</li>
                 </ul>

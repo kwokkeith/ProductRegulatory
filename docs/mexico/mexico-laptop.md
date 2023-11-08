@@ -19,7 +19,7 @@ Mexico (MX) </h1>
 - ***Product Safety:*** <br> NOM-019
 - ***Electromagnetic Compatibility (EMC):*** <br> Covered by RF EMC Testing
 - ***Radio Frequency (RF):*** <br> IFETEL (IFT 008) / NOM-208
-- ***Special Access Routes (SAR):*** <br> IFT-012-2019
+- ***Specific Absorption Rate (SAR):*** <br> IFT-012-2019
 - ***Energy Efficiency:*** <br> Not in scope for laptops
 
 
@@ -95,7 +95,7 @@ Mexico (MX) </h1>
         </tr>
         <tr>
             <td>
-                <h3>Special Access Routes</h3>
+                <h3>Specific Absorption Rate</h3>
                 <ul>
                     <li>IFT-012-2019</li>
                 </ul>

@@ -20,7 +20,7 @@ Canada (CA) </h1>
 - ***Product Safety:*** <br> CSA C22.2 No. 62368-1
 - ***Electromagnetic Compatibility (EMC):*** <br> ICES-003
 - ***Radio Frequency (RF):*** <br> RSS-GEN / RSS-210
-- ***Special Access Routes (SAR):*** <br> RSS-102
+- ***Specific Absorption Rate (SAR):*** <br> RSS-102
 - ***Energy Efficiency:*** <br> NRCan
 
 
@@ -96,7 +96,7 @@ Canada (CA) </h1>
         </tr>
         <tr>
             <td>
-                <h3>Special Access Routes</h3>
+                <h3>Specific Absorption Rate</h3>
                 <ul>
                     <li>RSS-102</li>
                 </ul>

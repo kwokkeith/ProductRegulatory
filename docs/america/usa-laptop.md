@@ -20,7 +20,7 @@ United States of America (USA) </h1>
 - ***Product Safety:*** <br> UL 62368-1
 - ***Electromagnetic Compatibility (EMC):*** <br> FCC Part 15 Subpart B
 - ***Radio Frequency (RF):*** <br> FCC Part 15 Subpart C
-- ***Special Access Routes (SAR):*** <br> 47 CFR Part 2, section 2.1093 / 2.1091
+- ***Specific Absorption Rate (SAR):*** <br> 47 CFR Part 2, section 2.1093 / 2.1091
 - ***Energy Efficiency:*** <br> EPEAT <br> Energy Star
 
 
@@ -93,7 +93,7 @@ United States of America (USA) </h1>
         </tr>
         <tr>
             <td>
-                <h3>Special Access Routes</h3>
+                <h3>Specific Absorption Rate</h3>
                 <ul>
                     <li>47 CFR Part 2, section 2.1093 / 2.1091 (Laptop)</li>
                 </ul>
