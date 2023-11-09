@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Europe
+title: Europe (EU)
 permalink: /europe/index
 description: Europe Regulations
 nav_order: 4

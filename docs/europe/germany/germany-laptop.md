@@ -4,7 +4,7 @@ title: Laptop
 permalink: /ger/laptop
 description: GER Regulations (Laptop)
 parent: Germany (GER)
-grand_parent: Europe 
+grand_parent: Europe (EU)
 nav_order: 1
 ---
 

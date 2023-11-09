@@ -4,7 +4,7 @@ title: Laptop
 permalink: /uk/laptop
 description: UK Regulations (Laptop)
 parent: United Kingdom (UK)
-grand_parent: Europe 
+grand_parent: Europe (EU)
 nav_order: 1
 ---
 
@@ -26,9 +26,9 @@ United Kingdom (UK) </h1>
 
 
 # Lead Time
-- ***Safety Test:*** ? Weeks
-- ***EMC and RF Test:*** ? Weeks
-- ***Energy Efficiency Certification:*** ? Weeks
+- ***Safety Test:*** 8 Weeks
+- ***EMC and RF Test:*** 8 to 12 Weeks
+- ***Energy Efficiency Certification:*** 4 Weeks
 
 
 # Labels

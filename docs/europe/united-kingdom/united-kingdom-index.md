@@ -3,7 +3,7 @@ layout: default
 title: United Kingdom (UK)
 permalink: /uk/index
 description: UK Regulations
-parent: Europe 
+parent: Europe (EU) 
 has_children: true
 nav_order: 2
 ---

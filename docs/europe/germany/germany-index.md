@@ -4,7 +4,7 @@ title: Germany (GER)
 permalink: /ger/index
 description: GER Regulations
 nav_order: 1
-parent: Europe 
+parent: Europe (EU)
 has_children: true
 ---
 
