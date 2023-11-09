@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Germany (GER)
-permalink: /ger/index
-description: GER Regulations
-nav_order: 1
+title: United Kingdom (UK)
+permalink: /uk/index
+description: UK Regulations
 parent: Europe 
 has_children: true
+nav_order: 2
 ---
 
 <h1> 
-<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaA8ZdGUzAAVALNSzgf_Qj3KDHb-2TyYDLBPbcf8TsYqJYMjE6Q8Mc_MpTBNRNVpAuR6x2wkkgxIdW4upVgaK_vrexkPPA=s1600" style="width: 60px"/>
-Germany (GER)</h1>
+<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAOXb3-Dvtj9Wm0amd_5Bb0DvmX3SxoiglW9cYD1K-Pn-CUDjw9IZo_VC2LD-Ci9eytJimr6cX1jT5tcbkR7LzawsZCiw=s1600" style="width: 60px"/>
+United Kingdom (UK)</h1>
 
-# Product Regulatory for Germany
+# Product Regulatory for United Kingdom
 {:.no_toc}
  
 <div style="display: grid; grid-template-columns: auto auto">

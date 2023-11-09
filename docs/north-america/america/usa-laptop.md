@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Laptop 
-permalink: /ger/laptop
-description: GER Regulations (Laptop)
-parent: Germany (GER)
-grand_parent: Europe 
+permalink: /usa/laptop
+description: USA Regulations (Laptop)
+parent: United States of America (USA)
+grand_parent: North America 
 nav_order: 1
 ---
 
@@ -13,22 +13,22 @@ nav_order: 1
 {:toc}
 
 <h1> 
-<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaA8ZdGUzAAVALNSzgf_Qj3KDHb-2TyYDLBPbcf8TsYqJYMjE6Q8Mc_MpTBNRNVpAuR6x2wkkgxIdW4upVgaK_vrexkPPA=s1600" style="width: 60px"/>
-Germany (GER) </h1>
+<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAzCcz3NzAD__vMwV4M5b1mBfUPndaBCjsCXnkMdktI3iH-jPNAhnLK07qDgPpZV1ePhDvPn2EHOq7yoQve-LASZjCWqw=s1600" style="width: 60px"/>
+United States of America (USA) </h1>
 
 
 # Standards and Regulations
-- ***Product Safety:*** <br> EN/IEC 62368-1
-- ***Electromagnetic Compatibility (EMC):*** <br> EN 55032 / EN 55035
-- ***Radio Frequency (RF):*** <br> ETSI EN 300328 / ETSI EN 301489-1
-- ***Specific Absorption Rate (SAR):*** <br> EN 62311
-- ***Energy Efficiency:*** <br> Follow EU
+- ***Product Safety:*** <br> UL 62368-1
+- ***Electromagnetic Compatibility (EMC):*** <br> FCC Part 15 Subpart B
+- ***Radio Frequency (RF):*** <br> FCC Part 15 Subpart C
+- ***Specific Absorption Rate (SAR):*** <br> 47 CFR Part 2, section 2.1093 / 2.1091
+- ***Energy Efficiency:*** <br> EPEAT <br> Energy Star
 
 
 # Lead Time
-- ***Safety Test:*** ? Weeks
-- ***EMC and RF Test:*** ? Weeks
-- ***Energy Efficiency Certification:*** ? Weeks
+- ***Safety Test:*** 8 Weeks
+- ***EMC and RF Test:*** 8 Weeks
+- ***Energy Efficiency Certification:*** 4 Weeks
 
 
 # Labels
@@ -52,13 +52,13 @@ Germany (GER) </h1>
             <td>
                 <h3>Product Safety</h3>
                 <ul>
-                    <li>EN/IEC 62368-1</li>
+                    <li>UL 62368-1</li>
                 </ul>
             </td>
-            <td class="" rowspan=5>
-                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAJEgnUoViKa_-dMmyR1hG5JNOWjqOSCu-yOQ2wG4j1ldW4HvmEoavQ-pgzeZ2zmLcGLPkRtFK6IhMxXqQZ9z46gU2eWQ=s2560" class="center-sixty"/>
+            <td rowspan=1>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDwLlOCg5UOja33jpuwmDsPqqyBmk8KnKW3VZWcwaNlARhM8QnA_vlgG7R7ad9Fl05JI1r3vpn_d1kH46TKrmcZp9Kp=s2560" class="center-thirty"/>
             </td>
-            <td rowspan=5>
+            <td rowspan=6>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill=red class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg>&nbsp;Product
                 </div>
@@ -77,15 +77,18 @@ Germany (GER) </h1>
             <td>
                 <h3>Electromagnetic Compatibility</h3>
                 <ul>
-                    <li>EN 55032 / EN 55035</li>
+                    <li>FCC Part 15 Subpart B</li>
                 </ul>        
+            </td>
+            <td rowspan=3>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAZ3QVEo37W2MM5O4_BZJSZRiNFYP7LrIDtaiTxUbux6Yy0KULR1g9GKwQ2_3mjBM8CsRtxvNcDjjMe7F-ODcTJizZ1oQ=s2560" class="center-sixty"/>
             </td>
         </tr>
         <tr>
-            <td>
+         <td>
                 <h3>Radio Frequency</h3>
                 <ul>
-                    <li>ETSI EN 300328 / ETSI EN 301489-1</li>
+                    <li>FCC Part 15 Subpart C</li>
                 </ul>
             </td>
         </tr>
@@ -93,7 +96,7 @@ Germany (GER) </h1>
             <td>
                 <h3>Specific Absorption Rate</h3>
                 <ul>
-                    <li>EN 62311</li>
+                    <li>47 CFR Part 2, section 2.1093 / 2.1091 (Laptop)</li>
                 </ul>
             </td>
         </tr>
@@ -101,10 +104,55 @@ Germany (GER) </h1>
             <td>
                 <h3>Energy Efficiency</h3>
                 <ul>
-                    <li>Follow EU</li>
+                    <li>EPEAT</li>
                 </ul>
             </td>
+            <td>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBPwKHBxkFkW_-YnhZiGxX_3wj30Xah9gZJremZ6R_2yB6RXHjE1MFI2ism2ioWvgc3A7kd-duoijTaSjn64YTWPueiAg=s2560" class="center-thirty"/>
+            </td>
         </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Energy Star</li>
+                </ul>
+            </td>
+            <td>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBedQUrYCtCI_O38rrLj4T4X6QTdqPKbpIF67w7GexgK70GbrNZdcacMqh3UqBlYNHo_zwaVQ40Laf4I3xf7bjJWjZ6ng=s2560" class="center-thirty"/>
+            </td>
+        </tr>    
     </tbody>
 </table>
 
+<!-- 
+<btn class="btn-collapsible-toggle">Toggle All Labels</btn>
+
+## Product Safety
+- UL 62368-1
+<div cursor="pointer" class="collapsible" style="margin-top:-10px">Show Logo</div><div class="content">
+    <img src="../../assets/images/logo/usa-logo/UL.png" class="center-twenty"/>
+</div>
+
+## EMC
+- FCC Part 15 Subpart B
+<div cursor="pointer" class="collapsible" style="margin-top:-10px">Show Logo</div><div class="content">
+    <img src="../../assets/images/logo/usa-logo/FCC.png" class="center-twenty"/>
+</div>
+
+## RF
+- FCC Part 15 Subpart C
+<div cursor="pointer" class="collapsible" style="margin-top:-10px">Show Logo</div><div class="content">
+    <img src="../../assets/images/logo/usa-logo/FCC.png" class="center-twenty"/>
+</div>
+
+## SAR
+-  47 CFR Part 2, section 2.1093 / 2.1091 (Laptop)
+<div cursor="pointer" class="collapsible" style="margin-top:-10px">Show Logo</div><div class="content">
+    <img src="../../assets/images/logo/usa-logo/FCC.png" class="center-twenty"/>
+</div>
+        
+## Energy Efficiency
+- EPEAT
+<div cursor="pointer" class="collapsible" style="margin-top:-10px">Show Logo</div><div class="content">
+    <img src="../../assets/images/logo/usa-logo/EPEAT.png" class="center-twenty"/>
+</div>  -->

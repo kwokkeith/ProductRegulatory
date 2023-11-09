@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Germany (GER)
-permalink: /ger/index
-description: GER Regulations
-nav_order: 1
-parent: Europe 
+title: Argentina (ARG)
+permalink: /arg/index
+description: ARG Regulations
+nav_order: 3
+parent: South America
 has_children: true
 ---
 
 <h1> 
-<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaA8ZdGUzAAVALNSzgf_Qj3KDHb-2TyYDLBPbcf8TsYqJYMjE6Q8Mc_MpTBNRNVpAuR6x2wkkgxIdW4upVgaK_vrexkPPA=s1600" style="width: 60px"/>
-Germany (GER)</h1>
+<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaC8jl6SdDrcyFW7R4Em8qttRogTPbnrwyMR4nCAfvXGzQeZ5ppnYobxLzU2US-cOjkanSEx1AJlmaeV9HfikiLmb8K2sw=s1600" style="width: 60px"/>
+Argentina (ARG) </h1>
 
-# Product Regulatory for Germany
+# Product Regulatory for Argentina
 {:.no_toc}
  
 <div style="display: grid; grid-template-columns: auto auto">

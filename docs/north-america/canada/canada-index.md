@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Canada
+title: Canada (CA)
 permalink: /ca/index
 description: CA Regulations
-nav_order: 3
+nav_order: 2
+parent: North America
 has_children: true
 ---
 

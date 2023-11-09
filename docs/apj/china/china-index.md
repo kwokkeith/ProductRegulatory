@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Germany (GER)
-permalink: /ger/index
-description: GER Regulations
+title: China (CHN)
+permalink: /chn/index
+description: CHN Regulations
 nav_order: 1
-parent: Europe 
+parent: Asia-Pacific Japan (APJ)
 has_children: true
 ---
 
 <h1> 
-<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaA8ZdGUzAAVALNSzgf_Qj3KDHb-2TyYDLBPbcf8TsYqJYMjE6Q8Mc_MpTBNRNVpAuR6x2wkkgxIdW4upVgaK_vrexkPPA=s1600" style="width: 60px"/>
-Germany (GER)</h1>
+<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAKB9TxdwkNkxr43m10Z7Ejmi3PMRFynVp74MF78tGWjKp7ukGxcItTvBvMaEoWG7_WeR6jbx5xmqfxl22qq9_BAdsLJw=s1600" style="width: 60px"/>
+China (CHN)</h1>
 
-# Product Regulatory for Germany
+# Product Regulatory for China
 {:.no_toc}
  
 <div style="display: grid; grid-template-columns: auto auto">

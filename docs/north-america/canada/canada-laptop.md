@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Laptop 
-permalink: /ger/laptop
-description: GER Regulations (Laptop)
-parent: Germany (GER)
-grand_parent: Europe 
+permalink: /ca/laptop
+description: CA Regulations (Laptop)
+parent: Canada (CA)
+grand_parent: North America 
 nav_order: 1
 ---
 
@@ -13,22 +13,22 @@ nav_order: 1
 {:toc}
 
 <h1> 
-<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaA8ZdGUzAAVALNSzgf_Qj3KDHb-2TyYDLBPbcf8TsYqJYMjE6Q8Mc_MpTBNRNVpAuR6x2wkkgxIdW4upVgaK_vrexkPPA=s1600" style="width: 60px"/>
-Germany (GER) </h1>
+<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDSv2NpDzNPFNZLN9MDFBWxVWU5pN5MGadb2tlh3i3bofl47T6SRl0Za3LoGspMf6i3ZPli09aINoyfe7oTUFnBH_6V=s1600" style="width: 60px"/>
+Canada (CA) </h1>
 
 
 # Standards and Regulations
-- ***Product Safety:*** <br> EN/IEC 62368-1
-- ***Electromagnetic Compatibility (EMC):*** <br> EN 55032 / EN 55035
-- ***Radio Frequency (RF):*** <br> ETSI EN 300328 / ETSI EN 301489-1
-- ***Specific Absorption Rate (SAR):*** <br> EN 62311
-- ***Energy Efficiency:*** <br> Follow EU
+- ***Product Safety:*** <br> CSA C22.2 No. 62368-1
+- ***Electromagnetic Compatibility (EMC):*** <br> ICES-003
+- ***Radio Frequency (RF):*** <br> RSS-GEN / RSS-210
+- ***Specific Absorption Rate (SAR):*** <br> RSS-102
+- ***Energy Efficiency:*** <br> NRCan
 
 
 # Lead Time
-- ***Safety Test:*** ? Weeks
-- ***EMC and RF Test:*** ? Weeks
-- ***Energy Efficiency Certification:*** ? Weeks
+- ***Safety Test:*** 8 Weeks
+- ***EMC and RF Test:*** 8 Weeks
+- ***Energy Efficiency Certification:*** 4 Weeks
 
 
 # Labels
@@ -52,11 +52,11 @@ Germany (GER) </h1>
             <td>
                 <h3>Product Safety</h3>
                 <ul>
-                    <li>EN/IEC 62368-1</li>
+                    <li>CSA C22.2 No. 62368-1</li>
                 </ul>
             </td>
-            <td class="" rowspan=5>
-                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAJEgnUoViKa_-dMmyR1hG5JNOWjqOSCu-yOQ2wG4j1ldW4HvmEoavQ-pgzeZ2zmLcGLPkRtFK6IhMxXqQZ9z46gU2eWQ=s2560" class="center-sixty"/>
+            <td rowspan=1>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDZiFrPdcpbhegfy11Af2BL4FAHO8i2muRynvDLgouUmA1uRVSxxmr2dOxfr8JkoO4Tteojyop9g2VpW6HdX1TwRwE1PA=s2560" class="center-thirty"/>
             </td>
             <td rowspan=5>
                 <div>
@@ -77,23 +77,29 @@ Germany (GER) </h1>
             <td>
                 <h3>Electromagnetic Compatibility</h3>
                 <ul>
-                    <li>EN 55032 / EN 55035</li>
+                    <li>ICES-003</li>
                 </ul>        
+            </td>
+            <td rowspan=1>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaCAwKmfE4mAqUJ1-uWcxSb9uE76cAOjcK5VDMFf7BCws4jDprP7jr-PcOp9LqFv016xjDtJm_auLoFBpfrWc-M7ywTu1A=s2560" class="center-fifty"/>
             </td>
         </tr>
         <tr>
             <td>
                 <h3>Radio Frequency</h3>
                 <ul>
-                    <li>ETSI EN 300328 / ETSI EN 301489-1</li>
+                    <li>RSS-Gen / RSS-210</li>
                 </ul>
+            </td>
+            <td rowspan=2>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAep4YVTqbfOcU2XbUDq7LtqUWiBFt_iZDaWrg79sZogwFahfG0cwvDhll2c4BaxzDNkjJqpXdNfLjh1Rg4W1Kb5iKf=s2560" class="center-fifty"/>
             </td>
         </tr>
         <tr>
             <td>
                 <h3>Specific Absorption Rate</h3>
                 <ul>
-                    <li>EN 62311</li>
+                    <li>RSS-102</li>
                 </ul>
             </td>
         </tr>
@@ -101,8 +107,12 @@ Germany (GER) </h1>
             <td>
                 <h3>Energy Efficiency</h3>
                 <ul>
-                    <li>Follow EU</li>
+                    <li>CSA C381.1-08</li>
+                    <li>CSA C381.1-17</li>
                 </ul>
+            </td>
+            <td rowspan=1>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaCHwhtgrsQKIvCULBWBH6f0fHdYMPu_unzsYYsSD6wZFu7CUn5jIy6fxIW4gV4u6W7SKN54ZrXKZA4ifI90rH5uB1L-=s2560" class="center-thirty"/>
             </td>
         </tr>
     </tbody>

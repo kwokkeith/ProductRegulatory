@@ -3,7 +3,8 @@ layout: default
 title: United States of America 
 permalink: /usa/index
 description: USA Regulations
-nav_order: 2
+nav_order: 1
+parent: North America
 has_children: true
 ---
 <h1> 
@@ -21,19 +22,3 @@ United States of America (USA) </h1>
   </div>
   <div class="grid-item">2nd Product</div>
 </div>
-
-```mermaid
-%%{init: { 'flowchart': { 'nodeSpacing': 1, 'rankSpacing': 1 } }}%%
-
-graph LR
-    A[<font size=20><br>Preparation and review of all necessary documents for the application] --> B[<font size=20><br>Submit the application to the CB in Ukraine]
-    B --> C[<font size=20><br>CB evaluates the submitted documents]
-    C --> D[<br>Issue DoC and TEC]
-    D --> E[<br>Provision of information on marking]
-
-    style A fill:#2ECC71,stroke:#000000
-    style B fill:#2ECC71,stroke:#000000
-    style C fill:#2ECC71,stroke:#000000
-    style D fill:#2ECC71,stroke:#000000
-    style E fill:#2ECC71,stroke:#000000   
-```

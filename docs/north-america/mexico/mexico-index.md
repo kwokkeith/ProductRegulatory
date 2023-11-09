@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Germany (GER)
-permalink: /ger/index
-description: GER Regulations
-nav_order: 1
-parent: Europe 
+title: Mexico (MX)
+permalink: /mx/index
+description: MX Regulations
+nav_order: 3
+parent: North America
 has_children: true
 ---
 
 <h1> 
-<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaA8ZdGUzAAVALNSzgf_Qj3KDHb-2TyYDLBPbcf8TsYqJYMjE6Q8Mc_MpTBNRNVpAuR6x2wkkgxIdW4upVgaK_vrexkPPA=s1600" style="width: 60px"/>
-Germany (GER)</h1>
+<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDMDMhmSa1y6ZYS1yqaA0KB97ZNkM1UZUn7s5Zc4GYI4vslHkjOpRaefb9Arp9lhxb3Ue6TDbEV5v3NFqCiFW1rzbdnZg=s1600" style="width: 60px"/>
+Mexico (MX) </h1>
 
-# Product Regulatory for Germany
+# Product Regulatory for Mexico
 {:.no_toc}
  
 <div style="display: grid; grid-template-columns: auto auto">

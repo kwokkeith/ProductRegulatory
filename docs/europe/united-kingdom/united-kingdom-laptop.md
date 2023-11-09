@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Laptop 
-permalink: /ger/laptop
-description: GER Regulations (Laptop)
-parent: Germany (GER)
+permalink: /uk/laptop
+description: UK Regulations (Laptop)
+parent: United Kingdom (UK)
 grand_parent: Europe 
 nav_order: 1
 ---
@@ -13,8 +13,8 @@ nav_order: 1
 {:toc}
 
 <h1> 
-<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaA8ZdGUzAAVALNSzgf_Qj3KDHb-2TyYDLBPbcf8TsYqJYMjE6Q8Mc_MpTBNRNVpAuR6x2wkkgxIdW4upVgaK_vrexkPPA=s1600" style="width: 60px"/>
-Germany (GER) </h1>
+<img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAOXb3-Dvtj9Wm0amd_5Bb0DvmX3SxoiglW9cYD1K-Pn-CUDjw9IZo_VC2LD-Ci9eytJimr6cX1jT5tcbkR7LzawsZCiw=s1600" style="width: 60px"/>
+United Kingdom (UK) </h1>
 
 
 # Standards and Regulations
@@ -22,7 +22,7 @@ Germany (GER) </h1>
 - ***Electromagnetic Compatibility (EMC):*** <br> EN 55032 / EN 55035
 - ***Radio Frequency (RF):*** <br> ETSI EN 300328 / ETSI EN 301489-1
 - ***Specific Absorption Rate (SAR):*** <br> EN 62311
-- ***Energy Efficiency:*** <br> Follow EU
+- ***Energy Efficiency:*** <br> EuP
 
 
 # Lead Time
@@ -55,8 +55,8 @@ Germany (GER) </h1>
                     <li>EN/IEC 62368-1</li>
                 </ul>
             </td>
-            <td class="" rowspan=5>
-                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAJEgnUoViKa_-dMmyR1hG5JNOWjqOSCu-yOQ2wG4j1ldW4HvmEoavQ-pgzeZ2zmLcGLPkRtFK6IhMxXqQZ9z46gU2eWQ=s2560" class="center-sixty"/>
+            <td rowspan=5>
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaC_Y7_xBw--SCV6hplVEVk2Jd5_w4R1NQJTEJbZ_esm6tRW9zw5hoz5dYWoFzEJkAQ9tG5ljszGzAYUqVULgTbmdHCViw=s2560" class="center-sixty"/>
             </td>
             <td rowspan=5>
                 <div>
