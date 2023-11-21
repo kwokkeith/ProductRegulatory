@@ -54,7 +54,7 @@
 
 .main-header {
   z-index: 1;
-  display: none;
+  display: block;
   background-color: $sidebar-color;
 
   @include mq(md) {
@@ -80,21 +80,43 @@
 .site-footer {
   width: 100%;
   background-color: $sidebar-color;
-
+  
   @include mq(lg) {
     width: $nav-width;
+    
   }
 }
 
 .site-nav {
-  position: fixed;
+  @include mq-max(md) {
+    width: 0%;
+    transition: 0.2s;
+  }
+
+  position: relative;
   overflow-y: scroll;
   z-index: 998;
   padding-top: $sp-8;
   padding-bottom: $gutter-spacing-sm;
+  height: 50vh;
+  top: 0px;
+  display: block;
+
+  @include mq(sm){
+    position: relative;
+    overflow-y: scroll;
+    z-index: 998;
+    padding-top: $sp-8;
+    padding-bottom: $gutter-spacing-sm;
+  }
 
   &.nav-open {
     display: block;
+    position: relative;
+    height: 50vh;
+    width: 50%;
+    top:0px;
+    transition: 0.2s;
   }
 
   @include mq(md) {
